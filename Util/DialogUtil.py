@@ -4,7 +4,6 @@ class DialogUtil:
 
     @staticmethod
     def show_warning(message: str='Atenção'):
-        print(message)
         QMessageBox.warning(None, "Atenção", message)
 
     @staticmethod

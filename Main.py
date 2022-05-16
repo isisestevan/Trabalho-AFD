@@ -33,8 +33,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     def main(self):
         self.set_attributes_afd()
 
-        print()
-
         if UtilAFD.checar_valores(self.afd):
 
           transicoes: dict = UtilAFD.get_transicoes_dict(self.afd)

@@ -410,7 +410,7 @@ class Ui_MainWindow(object):
         self.label_9.setText(_translate("MainWindow", "Estadados Inciais"))
         self.label.setText(_translate("MainWindow", "Estadados Finais"))
         self.info_input.setTitle(_translate("MainWindow", "Informações"))
-        self.label_15.setText(_translate("MainWindow", "Separe as informações por virgula!"))
+        self.label_15.setText(_translate("MainWindow", "Separe as informações por espaços!"))
         self.label_14.setText(_translate("MainWindow", "Digite os estados"))
         self.label_13.setText(_translate("MainWindow", "Digite o alfabeto"))
         self.label_11.setText(_translate("MainWindow", "Digite quais estados inciais"))
